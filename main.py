@@ -174,7 +174,7 @@ def updatePet(newName):
             print(f"Database updated!")
 
     except Exception:
-        print(f"An error has occurred. Exiting.")
+        print(f"An issue has occurred with the sql information. The program will now end.")
         exit()
 
     # Close connection###########################PetAgeChange######################################################PetAgeChange###########################
